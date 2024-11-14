@@ -1,7 +1,10 @@
 
 # Personnal datas #
 *.csv
+*.xlsx
 *datas.py
+data/*
+
 
 ######################
 
