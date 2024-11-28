@@ -4,19 +4,18 @@ from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0
 from datetime import datetime, timedelta
 
 # import project packages
-from helpers.DFdatas import datas_to_one_df
-
+import helpers.datas as datas # store links, directories and personnal datas
 
 app = Dash(__name__)
 
 
 # -- Import and clean data (importing csv into pandas)
-df_temperature = pd.read_csv("/Users/robingaboriau/Documents/DEV/Python/Projets perso/Electricity/data/temperatures_raspberry.csv")
+df_temperature = pd.read_csv(datas.database_folder_path + "temperatures_raspberry.csv")
 df_temperature['datetime'] = pd.to_datetime(df_temperature['datetime'], format='mixed')
 df_temperature.sort_values('datetime', inplace=True)
 locations = df_temperature["location"].sort_values().unique()
 
-df_daily_consumption = pd.read_csv("/Users/robingaboriau/Documents/DEV/Python/Projets perso/Electricity/data/daily_consumption.csv")
+df_daily_consumption = pd.read_csv(datas.database_folder_path + "daily_consumption.csv")
 df_daily_consumption['date'] = pd.to_datetime(df_daily_consumption['date'], format='mixed')
 df_daily_consumption.sort_values('date', inplace=True)
 

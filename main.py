@@ -41,7 +41,7 @@ def raspberry_sequence():
     # Upload new python scripts
     # rasp.upload_folder("/home/pi/python/", datas.local_rasp_scripts_folder_path)
     # Run the main python script on Raspberry
-    # rasp.execute_command(datas.rasp_start_python + datas.rasp_python_folder_path + datas.rasp_python_main + datas.rasp_python_capture)
+    #rasp.execute_command(datas.rasp_start_python + datas.rasp_python_folder_path + datas.rasp_python_main + datas.rasp_python_capture)
     # Make sure the python script is running
     stdout = rasp.execute_command(datas.rasp_python_running, 2)
     print(stdout.read().decode('utf-8'))

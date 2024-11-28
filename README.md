@@ -1,6 +1,7 @@
 # House monitoring project
 
 This projects aims to collect and to monitor a few datas in the house.
+In the future, I would like to see if I can predict some value. For instance, I could predict the electricity cost given the temperature.
 
 main.py:
 - Measure and collect the temperature in 3 places (2 indoor, 1 outdoor) through Raspberry Pi
