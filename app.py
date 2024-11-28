@@ -26,7 +26,7 @@ app.layout = html.Div([
     html.Div(
         children=[
             html.P(children="🏠", className="header-emoji"),
-            html.H1(children="Homie Dashboard", className="header-title"),
+            html.H1(children="House Monitoring", className="header-title"),
             html.P(
                 children=(
                     "Analyze the temperatures"

@@ -13,3 +13,6 @@ app.py
 
 Miscallenous:
 Personnal datas are not shared on my GitHub, only the code I use and/or wrote.
+
+![Alt text](view/Capture d’écran app.py 1.png?raw=true "Screensht from app.py")
+![Alt text](view/Capture d’écran app.py 2.png?raw=true "Screensht from app.py")
