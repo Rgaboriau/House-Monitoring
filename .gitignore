@@ -1,9 +1,8 @@
 
 # Personnal datas #
-*.csv
 *.xlsx
 *datas.py
-data/*
+data/raw*
 
 
 ######################
