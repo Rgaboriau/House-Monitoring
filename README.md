@@ -10,9 +10,5 @@ main.py:
 app.py
 - Monitor the temperature for a given date range with dash an plotly librairies
 
-
-Miscallenous:
-Personnal datas are not shared on my GitHub, only the code I use and/or wrote.
-
 ![Screenshot1](https://github.com/Rgaboriau/House-Monitoring/blob/main/view/Capture%20d%E2%80%99%C3%A9cran%20app.py%201.png)
 ![Screenshot2](https://github.com/Rgaboriau/House-Monitoring/blob/main/view/Capture%20d%E2%80%99%C3%A9cran%20app.py%202.png)
